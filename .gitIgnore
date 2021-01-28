@@ -1,1 +1,50 @@
+# GIT IGNORE SERVIDOR
+
 /Server/node_modules
+
+# GIT IGNORE CLIENTE
+
+# compiled output
+/Client/dist
+/Client/tmp
+/Client/out-tsc
+# Only exists if Bazel was run
+/Client/bazel-out
+
+# dependencies
+/Client/node_modules
+
+# profiling files
+/Client/chrome-profiler-events*.json
+/Client/speed-measure-plugin*.json
+
+# IDEs and editors
+/Client/.idea
+/Client.project
+/Client.classpath
+/Client.c9/
+/Client*.launch
+/Client.settings/
+/Client*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/Client/.sass-cache
+/Client/connect.lock
+/Client/coverage
+/Client/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/Client/typings
+
+# System Files
+.DS_Store
+Thumbs.db
